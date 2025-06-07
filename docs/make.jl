@@ -5,14 +5,15 @@ DocMeta.setdocmeta!(MAPElites, :DocTestSetup, :(using MAPElites); recursive=true
 
 makedocs(;
     modules=[MAPElites],
+    repo="https://github.com/dscolby/MAPElites.jl/blob/{commit}{path}#{line}",
     authors="Darren Colby and contributors",
     sitename="MAPElites.jl",
     format=Documenter.HTML(;
-        canonical="https://dscolby.github.io/MAPElites.jl",
+        canonical="https://dscolby.github.io/MAPElites.jl/stable",
         edit_link="main",
         sidebar_sitename=false,
         footer="© 2025 Darren Colby",
-        assets=["assets/extras.css"],
+        assets=[],
     ),
     pages=[
         "Home" => "index.md",
