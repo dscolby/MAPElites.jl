@@ -9,7 +9,7 @@ makedocs(;
     sitename="MAPElites.jl",
     format=Documenter.HTML(;
         canonical="https://dscolby.github.io/MAPElites.jl",
-        edit_link="master",
+        edit_link="main",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/dscolby/MAPElites.jl",
-    devbranch="master",
+    devbranch="main",
 )
