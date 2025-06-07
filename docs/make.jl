@@ -19,5 +19,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/dscolby/MAPElites.jl",
-    devbranch="main",
+    devbranch="dev",
 )
