@@ -12,7 +12,7 @@ makedocs(;
         edit_link="main",
         sidebar_sitename=false,
         footer="© 2025 Darren Colby",
-        assets=String[],
+        assets=["assets/extras.css"],
     ),
     pages=[
         "Home" => "index.md",
