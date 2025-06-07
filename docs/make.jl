@@ -11,7 +11,6 @@ makedocs(;
     format=Documenter.HTML(;
         canonical="https://dscolby.github.io/MAPElites.jl/stable",
         edit_link="main",
-        sidebar_sitename=false,
         footer="© 2025 Darren Colby",
         assets=[],
     ),
