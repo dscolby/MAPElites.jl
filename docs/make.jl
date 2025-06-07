@@ -20,7 +20,4 @@ makedocs(;
     ],
 )
 
-deploydocs(;
-    repo="github.com/dscolby/MAPElites.jl",
-    devbranch="dev",
-)
+deploydocs(; repo="github.com/dscolby/MAPElites.jl.git")
