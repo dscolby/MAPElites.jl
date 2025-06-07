@@ -1,11 +1,11 @@
 ```@raw html
-<div style="text-align: right; padding: 1rem;">
+<div style="text-align: center; padding: 1rem;">
             <a class="github-button"
-               href="https://github.com/YourUsername/MyPackage.jl"
+               href="https://github.com/ddscolby/MAPElites.jl"
                data-icon="octicon-star"
                data-size="large"
                data-show-count="true"
-               aria-label="Star YourUsername/MyPackage.jl on GitHub">
+               aria-label="Star dscolby/MAPElites.jl on GitHub">
                Star
             </a>
             <script async defer src="https://buttons.github.io/buttons.js"></script>
