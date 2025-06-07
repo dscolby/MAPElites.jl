@@ -4,7 +4,7 @@ CurrentModule = MAPElites
 
 # MAPElites
 
-Documentation for [MAPElites](https://github.com/dscolby/MAPElites.jl).
+Documentation for [MAPElites.jl](https://github.com/dscolby/MAPElites.jl).
 
 ```@index
 ```
