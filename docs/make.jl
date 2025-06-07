@@ -7,7 +7,6 @@ makedocs(;
     modules=[MAPElites],
     repo="https://github.com/dscolby/MAPElites.jl/blob/{commit}{path}#{line}",
     authors="Darren Colby and contributors",
-    prettyurls=get(ENV, "CI", "false") == "true",
     sitename="MAPElites.jl",
     format=Documenter.HTML(;
         canonical="https://dscolby.github.io/MAPElites.jl/stable",
