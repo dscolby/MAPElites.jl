@@ -1,7 +1,16 @@
 using MAPElites
 using Documenter
+using Changelog
 
 DocMeta.setdocmeta!(MAPElites, :DocTestSetup, :(using MAPElites); recursive=true)
+
+Changelog.generate(
+  Changelog.Documenter(),
+  joinpath(@__DIR__, "../CHANGELOG.md"),
+  joinpath(@__DIR__, "src/CHANGELOG.md");
+  repo = "dscolby/MAPElites.jl"
+)
+
 
 makedocs(;
     modules=[MAPElites],
@@ -16,6 +25,7 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
+        "Release Notes" => "CHANGELOG.md"
     ],
 )
 

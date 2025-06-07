@@ -1,6 +1,8 @@
 [deps]
+Changelog = "5217a498-cd5d-4ec6-b8c2-9b85a09b6e3e"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 MAPElites = "f3b45f6e-020e-484d-9657-64f0091a3636"
 
 [compat]
 Documenter = "1.12"
+Changelog = "1"
