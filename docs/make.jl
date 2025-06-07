@@ -21,7 +21,7 @@ makedocs(;
         canonical="https://dscolby.github.io/MAPElites.jl/stable",
         edit_link="main",
         footer="© 2025 Darren Colby",
-        assets=[],
+        assets=["assets/custom.css"],
     ),
     pages=[
         "Home" => "index.md",
