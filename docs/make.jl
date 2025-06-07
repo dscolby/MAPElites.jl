@@ -12,6 +12,19 @@ makedocs(;
         canonical="https://dscolby.github.io/MAPElites.jl/stable",
         edit_link="main",
         sidebar_sitename=false,
+        html_header=html_header = """
+        <div style="text-align: right; padding: 1rem;">
+            <a class="github-button"
+               href="https://github.com/YourUsername/MyPackage.jl"
+               data-icon="octicon-star"
+               data-size="large"
+               data-show-count="true"
+               aria-label="Star YourUsername/MyPackage.jl on GitHub">
+               Star
+            </a>
+            <script async defer src="https://buttons.github.io/buttons.js"></script>
+        </div>
+        """,
         footer="© 2025 Darren Colby",
         assets=[],
     ),
