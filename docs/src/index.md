@@ -1,7 +1,7 @@
 ```@raw html
 <div style="text-align: center; padding: 1rem;">
             <a class="github-button"
-               href="https://github.com/ddscolby/MAPElites.jl"
+               href="https://github.com/dscolby/MAPElites.jl"
                data-icon="octicon-star"
                data-size="large"
                data-show-count="true"
