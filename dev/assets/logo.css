@@ -2,6 +2,6 @@
 /* Adjust selector if using dark/light or specific theme */
 .sidebar-logo img,
 #logo img {
-  max-width: 200px; /* change this value to suit your needs */
+  max-width: 500px; /* change this value to suit your needs */
   height: auto;
 }
