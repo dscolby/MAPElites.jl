@@ -43,8 +43,8 @@ original MAP-Elites algorithm by replacing the crossover and mutation operators 
 matrix adaptation.[^5]
 
 
-[^1] Mouret, Jean-Baptiste, and Jeff Clune. "Illuminating search spaces by mapping elites." arXiv preprint arXiv:1504.04909 (2015).
-[^2] Vassiliades, Vassilis, Konstantinos Chatzilygeroudis, and Jean-Baptiste Mouret. "Using centroidal voronoi tessellations to scale up the multidimensional archive of phenotypic elites algorithm." IEEE Transactions on Evolutionary Computation 22, no. 4 (2017): 623-630.
-[^3] Cully, Antoine. "Autonomous skill discovery with quality-diversity and unsupervised descriptors." In Proceedings of the Genetic and Evolutionary Computation Conference, pp. 81-89. 2019.
-[^4] Gaier, Adam, Alexander Asteroth, and Jean-Baptiste Mouret. "Data-efficient exploration, optimization, and modeling of diverse designs through surrogate-assisted illumination." In Proceedings of the Genetic and Evolutionary Computation Conference, pp. 99-106. 2017.
-[^5] Fontaine, Matthew C., Julian Togelius, Stefanos Nikolaidis, and Amy K. Hoover. "Covariance matrix adaptation for the rapid illumination of behavior space." In Proceedings of the 2020 genetic and evolutionary computation conference, pp. 94-102. 2020.
+[^1]: Mouret, Jean-Baptiste, and Jeff Clune. "Illuminating search spaces by mapping elites." arXiv preprint arXiv:1504.04909 (2015).
+[^2]: Vassiliades, Vassilis, Konstantinos Chatzilygeroudis, and Jean-Baptiste Mouret. "Using centroidal voronoi tessellations to scale up the multidimensional archive of phenotypic elites algorithm." IEEE Transactions on Evolutionary Computation 22, no. 4 (2017): 623-630.
+[^3]: Cully, Antoine. "Autonomous skill discovery with quality-diversity and unsupervised descriptors." In Proceedings of the Genetic and Evolutionary Computation Conference, pp. 81-89. 2019.
+[^4]: Gaier, Adam, Alexander Asteroth, and Jean-Baptiste Mouret. "Data-efficient exploration, optimization, and modeling of diverse designs through surrogate-assisted illumination." In Proceedings of the Genetic and Evolutionary Computation Conference, pp. 99-106. 2017.
+[^5]: Fontaine, Matthew C., Julian Togelius, Stefanos Nikolaidis, and Amy K. Hoover. "Covariance matrix adaptation for the rapid illumination of behavior space." In Proceedings of the 2020 genetic and evolutionary computation conference, pp. 94-102. 2020.
