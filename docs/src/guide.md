@@ -42,7 +42,7 @@ Covariance Matrix Adaptation MAP-Elites (CMA MAP-Elites) improves the sample eff
 original MAP-Elites algorithm by replacing the crossover and mutation operators with covariance 
 matrix adaptation.[^5]
 
-
+# References
 [^1]: Mouret, Jean-Baptiste, and Jeff Clune. "Illuminating search spaces by mapping elites." arXiv preprint arXiv:1504.04909 (2015).
 [^2]: Vassiliades, Vassilis, Konstantinos Chatzilygeroudis, and Jean-Baptiste Mouret. "Using centroidal voronoi tessellations to scale up the multidimensional archive of phenotypic elites algorithm." IEEE Transactions on Evolutionary Computation 22, no. 4 (2017): 623-630.
 [^3]: Cully, Antoine. "Autonomous skill discovery with quality-diversity and unsupervised descriptors." In Proceedings of the Genetic and Evolutionary Computation Conference, pp. 81-89. 2019.
