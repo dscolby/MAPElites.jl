@@ -61,14 +61,6 @@ code follows the guidelines below.
 
 *   All functions should include docstrings.
 
-    **  Docstrings may contain arguments, keywords, notes, references, and examples sections 
-        in that order but some sections may be skipped.
-
-    **  At a minimum, docstrings should contain the signature/s, a short description, and 
-        examples
-
-    **  Each section should include its own level one header.
-
 !!! note
     MAPElites.jl follows the Blue style guide and all code is automatically formatted to 
     conform with this standard upon being pushed to GitHub.
