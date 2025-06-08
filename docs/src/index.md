@@ -33,30 +33,33 @@ at each point within a discretized behavior (feature) space, which the user can 
 
 # Package 
 *   Simplicity at its core: MAPElites.jl is designed to be simple and easy to use. Therefore, it 
-contains implementations for a diverse but small core set of variants of MAP-Elites to cover a 
-variety of situations without requiring hard-to-understand abstractions.
+    contains implementations for a diverse but small core set of variants of MAP-Elites to cover a 
+    variety of situations without requiring hard-to-understand abstractions.
 
 *   Customizable: MAPElites.jl lets you use whatever behavior descriptors or fitness functions you 
-want. You can use any function as a fitness function as long as it returns a real number. This 
-also makes it easy to mix and match genetic operators, behavior descriptions, and fitness functions, 
-or write your own.
+    want. You can use any function as a fitness function as long as it returns a real number. This 
+    also makes it easy to mix and match genetic operators, behavior descriptions, and fitness functions, 
+    or write your own.
 
 *   Library-agnostic: Unlike some Python implementations of quality-diversity algorithms, MAPElites.jl
-doesn't require you to use any specific library for arrays or tensors. You are free to use base 
-Julia, CUDA arrays from CUDA.jl, or any other library. As long as your fitness function can 
-evaluate your candidate solutions, you can use whatever data structure you want, be it arrays, 
-strings, images, or anything else.
+    't require you to use any specific library for arrays or tensors. You are free to use base 
+    Julia, CUDA arrays from CUDA.jl, or any other library. As long as your fitness function can 
+    evaluate your candidate solutions, you can use whatever data structure you want, be it arrays, 
+    strings, images, or anything else.
 
 *   Works with Optimization.jl: The implementations in MAPElites.jl can also be called from within
-Optimization.jl (coming soon).
+    Optimization.jl (coming soon).
 
 # Alternatives
 There are a few alternatives to MAPElites.jl for quality-diversity algorithms written in Python.
 *   QDax: A Jax-based implementation of several quality-diversity algorithms mostly designed around 
-reinforcement learning and robotics.
+    reinforcement learning and robotics.
+
 *   PyRibs: A barebones Python implementation that uses an ask-tell interface that also focuses on 
-reinforcement learning.
+    reinforcement learning.
+
 *   qdpy: A generic minimal implementation of quality-diversity algroithms in Python.
+
 *   CVT-MAP-Elites: A simple Python implementation of CVT-MAP-Elites.
 
 # Contents
