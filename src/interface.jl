@@ -50,7 +50,7 @@ Set the index of an archive.
 
 All subtypes of AbstractArchive must implement this method.
 """
-function setindex! end
+function Base.setindex!() end
 
 """
 Get a random solution and its corresponding behavior descriptor and fitness from an archive.
