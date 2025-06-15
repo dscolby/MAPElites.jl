@@ -31,15 +31,15 @@ is Multi-dimensional Archive of Phenotypic Elites (MAP-Elites), which can be cat
 evolutionary algorithm. MAP-Elites uses genetic operators to evolve high quality candidate solutions 
 at each point within a discretized behavior (feature) space, which the user can choose.[^1]
 
-# Package 
-*   **Simplicity at its core:** MAPElites.jl is designed to be simple and easy to use. Therefore, it 
-    contains implementations for a diverse but small core set of variants of MAP-Elites to cover a 
-    variety of situations without requiring hard-to-understand abstractions.
+# Package
+*   **Modularity:** MAPElites.jl includes various types of archives, behavior descriptor functions, 
+    fitness functions, and variation operators that you can mix and match however you see fit.
+    Furthermore, you can easily extend MAPElites.jl's functionality by implementing your own 
+    components and mixing and matching them with existing components.
 
-*   **Customizable:** MAPElites.jl lets you use whatever behavior descriptors or fitness functions you 
-    want. You can use any function as a fitness function as long as it returns a real number. This 
-    also makes it easy to mix and match genetic operators, behavior descriptions, and fitness functions, 
-    or write your own.
+*   **Simplicity at its core:** While MAPElites.jl has many modular components for you to mix 
+    and matched, you really only need one struct to use them. Additionally, several MAP-Elites
+    variants are implemented that you can run with on function call.
 
 *   **Library-agnostic:** Unlike some Python implementations of quality-diversity algorithms, MAPElites.jl
     doesn't require you to use any specific library for arrays or tensors. You are free to use base 
@@ -64,14 +64,6 @@ There are a few alternatives to MAPElites.jl for quality-diversity algorithms wr
 
 # Contents
 ```@contents
-```
-
-# Index
-```@index
-```
-
-```@autodocs
-Modules = [MAPElites]
 ```
 
 # References
