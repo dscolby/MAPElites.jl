@@ -1,3 +1,4 @@
+"""A struct to store solutions and their fitnesses in a discretized behavior grid."""
 mutable struct GridArchive{T<:NTuple, U<:NTuple} <: AbstractArchive
     dims::T
     lb::U

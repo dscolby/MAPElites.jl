@@ -66,9 +66,5 @@ There are a few alternatives to MAPElites.jl for quality-diversity algorithms wr
 ```@contents
 ```
 
-# Index
-```@index
-```
-
 # References
 [^1]: Mouret, Jean-Baptiste, and Jeff Clune. "Illuminating search spaces by mapping elites." arXiv preprint arXiv:1504.04909 (2015).

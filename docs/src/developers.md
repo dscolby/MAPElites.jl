@@ -45,6 +45,11 @@ a raw behavior descriptor and outputs a behavior descriptor vector. Like other s
 can store arbitrary information and can be as simple as returning the behavior descriptor that is 
 passed as an argument or as complicated as using a dimensionality reduction technique like a VAE.
 
+# Modules
+```@docs
+MAPElites
+```
+
 # Abstract Types
 ```@docs
 AbstractArchive
@@ -55,7 +60,7 @@ BehaviorDescriptorStrategy
 
 # Structs
 ```@docs
-MAPElites
+Algorithm
 GridArchive
 ```
 
