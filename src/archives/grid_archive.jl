@@ -2,7 +2,7 @@ mutable struct GridArchive{T<:NTuple, U<:NTuple} <: AbstractArchive
     dims::T
     lb::U
     ub::U
-    solutions::Array{Union{Any, Nothing}}
+    solutions::Array{Any}
     behaviors::Array{Union{AbstractVector{Float64}, Nothing}}
     fitnesses::Array{Union{Nothing, Float64}}
     best_elite_idx::Union{Nothing, NTuple}
@@ -29,7 +29,7 @@ GridArchive{Tuple{Int64,Int64},Tuple{Float64,Float64}}((3, 4), (0.0, -1.0), (1.0
 ```
 """
 function GridArchive(dims::D, lb::B, ub::B) where {D<:NTuple, B<:NTuple}
-        sols = Array{Union{Nothing, Any}}(undef, dims)
+        sols = Array{Any}(undef, dims)
         behs = Array{Union{AbstractVector{Float64}, Nothing}}(undef, dims)
         fits = Array{Union{Nothing, Float64}}(undef, dims)
         sols = fill!(sols, nothing)

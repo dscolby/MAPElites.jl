@@ -8,9 +8,11 @@ pkg> add MAPElites
 
 ## Standard Workflow
 
+## Mixing and Matching Components
+
 ## Using with Optimizers.jl
 
-# Algorihtms
+# Algorithms
 
 ## MAP-Elites
 MAP Elites initializes a discretized behavior grid with random solutions, then uses genetic 
