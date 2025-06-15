@@ -62,6 +62,8 @@ GridArchive
 # Functions
 ```@docs
 find_niche
+Base.getindex
+Base.setindex!
 select_random
 select_best_elite
 select_worst_elite
