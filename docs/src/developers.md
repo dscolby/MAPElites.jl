@@ -54,7 +54,7 @@ BehaviorDescriptorStrategy
 ```
 
 # Structs
-```@
+```@docs
 MAPElites
 GridArchive
 ```
