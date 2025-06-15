@@ -3,10 +3,12 @@ using Test
 using Aqua
 using JET
 
-@testset "Code quality (Aqua.jl)" begin
+include("test_archives/test_archive.jl")
+
+@testset "Code Quality (Aqua.jl)" begin
     Aqua.test_all(MAPElites)
 end
 
-@testset "Code linting (JET.jl)" begin
+@testset "Code Linting (JET.jl)" begin
     JET.test_package(MAPElites; target_defined_modules=true)
 end

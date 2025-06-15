@@ -3,9 +3,13 @@ uuid = "f3b45f6e-020e-484d-9657-64f0091a3636"
 authors = ["Darren Colby and contributors"]
 version = "0.1.0"
 
+[deps]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
 [compat]
 Aqua = "^0.8"
 JET = ">=0.9"
+Random = "1.11.0"
 Test = "1.11"
 julia = "1.11"
 
