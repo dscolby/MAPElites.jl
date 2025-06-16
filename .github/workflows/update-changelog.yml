@@ -17,7 +17,7 @@ jobs:
         with:
           latest-version: ${{ github.event.release.tag_name }}
           release-notes: ${{ github.event.release.body }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           branch: ${{ github.event.release.target_commitish }}
           commit_message: "🔖 Update CHANGELOG for ${{ github.event.release.tag_name }}"
