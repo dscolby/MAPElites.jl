@@ -4,11 +4,15 @@ authors = ["Darren Colby and contributors"]
 version = "0.1.0"
 
 [deps]
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
 Aqua = "^0.8"
+Clustering = "0.15.8"
 JET = ">=0.9"
+NearestNeighbors = "0.4.21"
 Random = "1.11.0"
 Test = "1.11"
 julia = "1.11"
